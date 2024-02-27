@@ -5,11 +5,9 @@ public class Main {
     public static void main( String[] args )
     {
         Scanner src = new Scanner (System.in);
-        double Num1;
-        double Num2;
-        double Num3;
-        double result;
+        double Num1, Num2, Num3, result;
         String result2;
+        int Nm1,Nm2,Nm3;
         int Menu = 0;
         do {
             if (Menu == 1) {            
