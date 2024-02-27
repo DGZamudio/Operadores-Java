@@ -5,14 +5,14 @@ public class Main {
     public static void main( String[] args )
     {
         Scanner src = new Scanner (System.in);
+        double Num1;
+        double Num2;
+        double Num3;
+        double result;
+        String result2;
         int Menu = 0;
         do {
-            if (Menu == 1) {
-                double Num1;
-                double Num2;
-                double Num3;
-                double result;
-            
+            if (Menu == 1) {            
                 System.out.println( "Problema 1:Area de un triangulo." );
                 System.out.println( "Ingresa la base:" );
                 Num1 = src.nextDouble();
@@ -106,6 +106,32 @@ public class Main {
                 result= Ejercicios.PromedioTresNumeros(Num1,Num2,Num3);
         
                 System.out.println( "El promedio de estos tres numeros es:" + result);
+            }
+            if (Menu == 2) {
+                System.out.println( "Problema 1:Ingresar un numeros y identificar si es positivo o negativo." );
+                System.out.println( "Ingresa un numero:" );
+                Num1 = src.nextDouble();
+            
+                result2 = Ejercicios.PositivoONegativo(Num1) ;
+
+                System.out.println(result2);
+
+                System.out.println( "Problema 2:Ingresar 2 numeros y identificar cual es mayor y cual es menor." );
+                System.out.println( "Ingresa un numero:" );
+                Num1 = src.nextDouble();
+            
+                System.out.println( "Ingresa otro numero:" );
+                Num2 = src.nextDouble();
+            
+                result2 = Ejercicios.MayorOMenor(Num1,Num2) ;
+
+                System.out.println(result2);
+            }
+            if (Menu == 3){
+
+            }
+            if (Menu == 4){
+
             }
             System.out.println("Bienvenido al menu selecciona una opcion:");
             System.out.println("1.Operadores");
