@@ -35,30 +35,4 @@ public class Ejercicios
     public static double PromedioTresNumeros(double d1, double d2, double d3){
         return (d1+d2+d3)/3;
     }
-    public static String PositivoONegativo(double d1){
-        if (d1 > 0) {
-            return (d1 + " "+"Es un numero positivo");
-        }
-        else{
-            if (d1 < 0) {
-                return (d1 + " Es un numero negativo");
-            }
-            else{
-                return (d1 + " Es un numero neutro");
-            }
-        }
-    }
-    public static String MayorOMenor(double d1, double d2){
-        if (d1 > d2) {
-            return (d1 + " "+"Es mayor que"+ " " + d2);
-        }
-        else{
-            if (d1 == d2) {
-                return (d1 + " "+"Es igual que"+ " " + d2);
-            }
-            else{
-                return (d2 + " Es menor que " + d1);
-            }
-        }
-    }
 }
